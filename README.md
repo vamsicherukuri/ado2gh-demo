@@ -83,6 +83,16 @@ Start by generating a comprehensive inventory of your Azure DevOps organization 
 - `git-lfs-files-{repo}-{timestamp}.txt` - LFS tracked files (if any)
 - `git-submodules-{repo}-{timestamp}.txt` - Submodule status (if any)
 
+**Enhanced CSV Reports:**
+- `repos_enhanced.csv` - Original repos.csv with additional columns:
+  - `lfs-enabled` - Whether Git LFS is configured (Yes/No/Configured)
+  - `lfs-files-count` - Number of files tracked by LFS
+  - `lfs-files-list` - List of LFS-tracked files (truncated if long)
+  - `submodules-enabled` - Whether submodules are configured (Yes/No)
+  - `submodules-count` - Number of submodules
+  - `submodules-list` - List of submodule paths (truncated if long)
+  - `git-sizer-status` - Repository size category (Small/Medium/Large with MB)
+
 ### Step 2: Pilot Migration (Recommended)
 
 Test the migration process with a single repository:

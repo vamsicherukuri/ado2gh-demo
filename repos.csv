@@ -1,0 +1,19 @@
+org,teamproject,repo,url,last-push-date,pipeline-count,compressed-repo-size-in-bytes,most-active-contributor,pr-count,commits-past-year
+"contosodevopstest","demotest","demotest","https://dev.azure.com/contosodevopstest/demotest/_git/demotest","01-Jan-0001 12:00 AM",0,"0","N/A",0,0
+"contosodevopstest","AzureFunctions","AzureFunctions","https://dev.azure.com/contosodevopstest/AzureFunctions/_git/AzureFunctions","01-Jan-0001 12:00 AM",2,"0","N/A",0,0
+"contosodevopstest","MyHealthClinic","MyHealthClinic","https://dev.azure.com/contosodevopstest/MyHealthClinic/_git/MyHealthClinic","18-Oct-2024 12:00 AM",2,"12,135,162","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",1,5
+"contosodevopstest","Server Migration","Azure Sentinel Template","https://dev.azure.com/contosodevopstest/Server%20Migration/_git/Azure%20Sentinel%20Template","01-Jan-0001 12:00 AM",0,"0","N/A",0,0
+"contosodevopstest","SQL Migration","Azure Sentinel Template","https://dev.azure.com/contosodevopstest/SQL%20Migration/_git/Azure%20Sentinel%20Template","01-Jan-0001 12:00 AM",0,"0","N/A",0,0
+"contosodevopstest","SmartHotel360","SmartHotel360","https://dev.azure.com/contosodevopstest/SmartHotel360/_git/SmartHotel360","01-Jan-0001 12:00 AM",0,"0","N/A",0,0
+"contosodevopstest","demo-project","demo-project","https://dev.azure.com/contosodevopstest/demo-project/_git/demo-project","01-Jan-0001 12:00 AM",0,"0","N/A",0,0
+"contosodevopstest","PartsUnlimited-YAML","PartsUnlimited","https://dev.azure.com/contosodevopstest/PartsUnlimited-YAML/_git/PartsUnlimited","29-Oct-2024 12:00 AM",1,"9,100,623","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,0
+"contosodevopstest","ContosoAir","ContosoAir","https://dev.azure.com/contosodevopstest/ContosoAir/_git/ContosoAir","16-Oct-2024 12:00 AM",0,"745","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,1
+"contosodevopstest","Proj_P1","Proj_P1","https://dev.azure.com/contosodevopstest/Proj_P1/_git/Proj_P1","22-Oct-2024 12:00 AM",1,"758,499","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,10
+"contosodevopstest","StarReads","StarReads","https://dev.azure.com/contosodevopstest/StarReads/_git/StarReads","26-Sep-2025 12:00 AM",0,"34,086","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,6
+"contosodevopstest","Youtube Clone","Youtube Clone","https://dev.azure.com/contosodevopstest/Youtube%20Clone/_git/Youtube%20Clone","01-Jan-0001 12:00 AM",0,"0","N/A",0,0
+"contosodevopstest","Azure Migration - IaC","IaC Migration","https://dev.azure.com/contosodevopstest/Azure%20Migration%20-%20IaC/_git/IaC%20Migration","25-Aug-2025 12:00 AM",3,"138,832","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,0
+"contosodevopstest","Tailwind Traders","TailwindTraders-Backend","https://dev.azure.com/contosodevopstest/Tailwind%20Traders/_git/TailwindTraders-Backend","15-Oct-2024 12:00 AM",1,"29,899,822","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,0
+"contosodevopstest","Tailwind Traders","TailwindTraders-Website","https://dev.azure.com/contosodevopstest/Tailwind%20Traders/_git/TailwindTraders-Website","15-Oct-2024 12:00 AM",1,"16,489,733","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,0
+"contosodevopstest","MyShuttle","MyShuttle","https://dev.azure.com/contosodevopstest/MyShuttle/_git/MyShuttle","18-Oct-2024 12:00 AM",5,"1,701,270","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,1
+"contosodevopstest","Azure Kubernetes Service","AKS","https://dev.azure.com/contosodevopstest/Azure%20Kubernetes%20Service/_git/AKS","15-Oct-2024 12:00 AM",2,"23,671,277","System Administrator (admin@MngEnvMCAP267305.onmicrosoft.com)",0,0
+"contosodevopstest","eShopOnWeb","eShopOnWeb","https://dev.azure.com/contosodevopstest/eShopOnWeb/_git/eShopOnWeb","24-Sep-2025 12:00 AM",1,"62,569,178","pedro (pedro@MngEnvMCAP267305.onmicrosoft.com)",2,6

@@ -13,6 +13,9 @@ git-sizer*.txt
 git-lfs-files-*.txt
 git-submodules-*.txt
 
+# Enhanced CSV Reports
+*_enhanced.csv
+
 # Validation Reports
 validation-*.json
 

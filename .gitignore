@@ -4,6 +4,15 @@
 migration-log-*.txt
 pilot-migration-log-*.txt
 
+# Git-Sizer Reports
+git-sizer-report*.txt
+git-sizer-report*.json
+git-sizer*.txt
+
+# Repository Health Check Reports
+git-lfs-files-*.txt
+git-submodules-*.txt
+
 # Validation Reports
 validation-*.json
 

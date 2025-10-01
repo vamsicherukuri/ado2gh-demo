@@ -59,9 +59,9 @@ PowerShell/
 
 ## Usage Guide
 
-### Step 1: Generate Inventory Report
+### Step 1: Generate Inventory Report with Health Checks
 
-Start by generating a comprehensive inventory of your Azure DevOps organization:
+Start by generating a comprehensive inventory of your Azure DevOps organization with repository health analysis:
 
 ```powershell
 .\0_generate_inventory.ps1
@@ -70,7 +70,18 @@ Start by generating a comprehensive inventory of your Azure DevOps organization:
 **What it does:**
 - Scans your ADO organization for repositories, team projects, pipelines
 - Generates CSV files with detailed information
+- **NEW:** Performs repository health checks on local repositories:
+  - **Git-Sizer Analysis**: Repository size, structure, and performance metrics
+  - **Git LFS Check**: Lists large files tracked by Git LFS
+  - **Submodules Analysis**: Status and configuration of Git submodules
+  - **Repository Summary**: Size breakdown and storage analysis
 - Provides baseline data for migration planning
+- Generates timestamped health check reports for documentation
+
+**Health Check Reports Generated:**
+- `git-sizer-{repo}-{timestamp}.txt` - Detailed repository analysis
+- `git-lfs-files-{repo}-{timestamp}.txt` - LFS tracked files (if any)
+- `git-submodules-{repo}-{timestamp}.txt` - Submodule status (if any)
 
 ### Step 2: Pilot Migration (Recommended)
 
@@ -134,6 +145,35 @@ Execute migration for multiple repositories:
 - Performs validation for each migrated repository
 - Generates comprehensive migration logs
 - Includes 30-second pause between migrations
+
+## Repository Health Checks
+
+The enhanced inventory script now includes comprehensive repository health analysis:
+
+### 🔍 **Git-Sizer Analysis**
+- Repository structure and size metrics
+- Commit, tree, and blob analysis  
+- Large file detection
+- Performance impact assessment
+- GitHub compatibility warnings
+
+### 📦 **Git LFS Detection**
+- Lists all LFS-tracked files
+- File size and storage analysis
+- Migration planning for large assets
+- LFS configuration validation
+
+### 🔗 **Submodules Analysis** 
+- Submodule status and commit tracking
+- Dependency mapping for migration
+- Nested repository identification
+- Update requirements assessment
+
+### 📊 **Repository Metrics**
+- Total repository size breakdown
+- Git database vs working directory size
+- Storage optimization recommendations
+- Migration time estimates
 
 ## Migration Validation
 

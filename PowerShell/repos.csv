@@ -1,0 +1,4 @@
+org,teamproject,repo,url,last-push-date,pipeline-count,compressed-repo-size-in-bytes,most-active-contributor,pr-count,commits-past-year
+contosodevopstest,demotest,demotest,https://dev.azure.com/contosodevopstest/demotest/_git/demotest,01-Jan-0001 12:00 AM,0,0,N/A,0,0
+contosodevopstest,AzureFunctions,AzureFunctions,https://dev.azure.com/contosodevopstest/AzureFunctions/_git/AzureFunctions,01-Jan-0001 12:00 AM,2,0,N/A,0,0
+contosodevopstest,eShopOnWeb,eShopOnWeb,https://dev.azure.com/contosodevopstest/eShopOnWeb/_git/eShopOnWeb,9/24/2025 0:00,1,"62,569,178",pedro (pedro@MngEnvMCAP267305.onmicrosoft.com),2,6

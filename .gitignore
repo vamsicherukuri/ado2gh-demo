@@ -1,0 +1,57 @@
+# PowerShell and Migration Logs
+*.log
+*.txt
+migration-log-*.txt
+pilot-migration-log-*.txt
+
+# Validation Reports
+validation-*.json
+
+# Temporary Files
+*.tmp
+*.temp
+
+# PowerShell Module Cache
+PSReadLine_*
+
+# Environment and Configuration Files
+.env
+*.env
+config.json
+appsettings.json
+
+# IDE and Editor Files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive Data (Never commit tokens or credentials)
+*token*
+*secret*
+*credential*
+*password*
+
+# Output Directories
+bin/
+obj/
+out/
+build/
+
+# Package Management
+packages/
+node_modules/
+
+# Backup Files
+*.bak
+*.backup

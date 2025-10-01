@@ -72,26 +72,13 @@ Start by generating a comprehensive inventory of your Azure DevOps organization 
 - Generates CSV files with detailed information
 - **NEW:** Performs repository health checks on local repositories:
   - **Git-Sizer Analysis**: Repository size, structure, and performance metrics
-  - **Git LFS Check**: Lists large files tracked by Git LFS
-  - **Submodules Analysis**: Status and configuration of Git submodules
   - **Repository Summary**: Size breakdown and storage analysis
 - Provides baseline data for migration planning
 - Generates timestamped health check reports for documentation
 
 **Health Check Reports Generated:**
-- `git-sizer-{repo}-{timestamp}.txt` - Detailed repository analysis
-- `git-lfs-files-{repo}-{timestamp}.txt` - LFS tracked files (if any)
-- `git-submodules-{repo}-{timestamp}.txt` - Submodule status (if any)
-
-**Enhanced CSV Reports:**
-- `repos_enhanced.csv` - Original repos.csv with additional columns:
-  - `lfs-enabled` - Whether Git LFS is configured (Yes/No/Configured)
-  - `lfs-files-count` - Number of files tracked by LFS
-  - `lfs-files-list` - List of LFS-tracked files (truncated if long)
-  - `submodules-enabled` - Whether submodules are configured (Yes/No)
-  - `submodules-count` - Number of submodules
-  - `submodules-list` - List of submodule paths (truncated if long)
-  - `git-sizer-status` - Repository size category (Small/Medium/Large with MB)
+- Console output with detailed git-sizer repository analysis
+- Repository size summary for each analyzed repository
 
 ### Step 2: Pilot Migration (Recommended)
 
@@ -167,17 +154,7 @@ The enhanced inventory script now includes comprehensive repository health analy
 - Performance impact assessment
 - GitHub compatibility warnings
 
-### 📦 **Git LFS Detection**
-- Lists all LFS-tracked files
-- File size and storage analysis
-- Migration planning for large assets
-- LFS configuration validation
 
-### 🔗 **Submodules Analysis** 
-- Submodule status and commit tracking
-- Dependency mapping for migration
-- Nested repository identification
-- Update requirements assessment
 
 ### 📊 **Repository Metrics**
 - Total repository size breakdown
